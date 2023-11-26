@@ -6,11 +6,11 @@ This project implements Fitted Q Iteration, a Q-learning-based approach, to pric
 
 This approach aims to learn an optimal pricing policy Q* for American options. In other words, we seek to understand the optimal action (exercise or hold) to take at each state (financial market condition) to maximize the expected cumulative reward over time. We estimate the continuation value using Laguerre Basis functions and compare it to the return of exercising the option.
 
+ ![Training](MC.png)
+
 ## Features
 
 - **Monte Carlo Framework:** The project employs Monte Carlo simulation to generate thousands of paths of stock prices, used to train the model.
-
- ![Training](MC.png)
 
 - **Q-learning Algorithm:** At the core of the project is the Q-learning algorithm, training a model to make optimal decisions for exercising or holding American options.
   
