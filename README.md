@@ -8,7 +8,9 @@ This approach aims to learn an optimal pricing policy Q* for American options. I
 
 ## Features
 
-- **Monte Carlo Framework:** The project employs Monte Carlo simulation to generate thousands of paths of stock prices, used to train the model. ![Training](MC.png)
+- **Monte Carlo Framework:** The project employs Monte Carlo simulation to generate thousands of paths of stock prices, used to train the model.
+
+ ![Training](MC.png)
 
 - **Q-learning Algorithm:** At the core of the project is the Q-learning algorithm, training a model to make optimal decisions for exercising or holding American options.
   
