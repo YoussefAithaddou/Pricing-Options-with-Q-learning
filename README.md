@@ -17,3 +17,10 @@ This approach aims to learn an optimal pricing policy Q* for American options. I
 - **Agent:** The entity that interacts with the environment, learning to exercise or hold the option to maximize the reward.
 
 - **Data:** Two years of Apple stock data were utilized. Further details about the data, including format and preprocessing, can be found in the project documentation.
+
+
+## Results
+
+This algorithm provides very promising results, descovering good opportunities to excercise or hold the option for the right reasons, here we get
+
+![Alt Text](results.png)
